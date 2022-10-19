@@ -1,0 +1,1918 @@
+/*
+.fotografia{
+    background-image: url(../images/sillon-amarillo.jpeg);
+    background-position: center center;
+    background-size: 100vh;
+}
+*/
+
+/* -------- Global* -------------*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+margin: 0;
+}
+
+
+/* ---------------------- /HEADER/ */
+
+/* /HEADER/ */
+
+.parte-top{
+    /* background-image: url(../images/sillon-gris.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 58px;
+}
+
+/*HEADER*/
+
+
+.primera-linea{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(16, 1, 66);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 10;
+}
+
+.fa-address-card,
+.fa-cart-shopping,
+.fa-house,
+.fa-arrow-right{
+    display: none;
+}
+
+.listado-top{
+    display: none;
+}
+
+.hamb-button{
+    color: gray;
+    font-size: 22px;
+    max-width: 50px;
+    padding: 6px;
+}
+
+.iconos-header-mobile {
+    width: 100%;
+    margin: 0;
+    border: green 1px solid;
+}
+
+.iconos-header-mobile ul {
+    list-style: none;
+    border: red 1px solid;
+    display: flex;
+    font-size: 21px;
+    justify-content: space-evenly;
+}
+
+.iconos-header-mobile li {
+    font-weight: 15px;
+}
+
+
+.iconos-top-mobile {
+    width: 39%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: rgb(25, 0, 106);
+    margin-right: 20px;
+}
+.iconos-top-mobile li {
+    margin: 10px;
+    color: white;
+}
+
+
+.logo{
+    width: 75px;   
+}
+
+.listado-top ul{
+    font-size: 10px;
+    display: flex;
+    justify-items: center;
+    list-style: none;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.listado-top li{
+    margin: 0 2px;
+    text-transform: none;
+    color: rgb(25, 0, 106);
+}
+
+.segunda-linea {
+    border: rex 1px solid;
+}
+
+.segunda-linea h5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+
+    .welcome,
+    .borde-bajo{
+        font-size: 15.5px;
+        letter-spacing: 1px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .borde-bajo{
+        font-weight: 400
+    }
+
+
+/*Comienza MAIN*/
+
+.div-main {
+    border: solid 1px #d1d1d1e7;
+    margin-top: 30px;
+}
+.contenedor-slider{
+    margin-top: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenedor-slider ul {
+    padding: 0;
+    display: flex;
+    width: 500%;
+    animation: cambio-slider 25s infinite linear alternate;
+    margin-bottom: 0;
+}
+
+.contenedor-slider li {
+    list-style: none;    
+    width: 100%;
+}
+
+.contenedor-slider img {
+    width: 100%;
+}
+
+.botones-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes cambio-slider {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+
+    45% {margin-left: -200%;}
+    60% {margin-left: -200%;}
+
+    65% {margin-left: -300%;}
+    80% {margin-left: -300%;}
+
+    85% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}
+
+.el-main nav{
+    margin-bottom: 20px;
+    margin-right: 0%;
+}
+
+.cuotas h6{
+    font-size: 10px;
+    text-align: center;
+    margin: 0px 15px 10px 15px;
+    border-bottom: black 1px solid;
+    padding: 8px;
+}
+
+.productosdestacados p{
+    text-align: center;
+    margin: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.productos{
+    text-align: center;
+}
+
+.productos img{
+    border: solid 1px black;
+}
+
+.productos img{
+    width: 85vw;
+    height: 67vw;
+    max-width: 200px;
+    max-height: 180px;
+    margin: auto;
+}
+
+.imagenes{
+    align-items: center;
+    align-content: center;
+}
+
+.fa-truck {
+    color: rgb(25, 0, 106);
+    border: solid 1px rgb(25, 0, 106);
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 3px;
+    animation: rotate 5s linear infinite alternate;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+
+.descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion p{
+    margin-right: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* VISTA PRODUCTS MOBILE*/
+
+.carrusel {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}  
+.carrusel ul {
+    list-style: none;
+    margin: 0 20px;
+    padding: 0;
+    /*max-width: 1030px;*/
+    max-width: 500px;
+    scroll-behavior: smooth;
+}
+.carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+.carrusel-fotos img {
+    width: 350px;
+    height: 200px;
+    object-fit: contain;
+}
+.carrusel-menu {
+    display: none;
+}
+.main-detalle {
+    margin: 0 10px;
+}
+
+.titulo-producto {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.fa-solid2 {
+    color: #d1d1d1e7;
+}
+
+.puntacion-reviews {
+    display: inline;
+    margin: 5px;
+}
+
+.descripcion-prod {
+    display: block;
+}
+.comentario-producto {
+    display: none;
+}
+
+.precio-producto {
+    margin: 5px 0;
+    font-size: 42px;
+}
+.elegir-modelo {
+    margin-top: 20px;
+}
+
+.button {
+    display: block;
+    margin-top: 20px;
+    width: 150px;
+    height: 35px;
+    border-radius: 0.5em;
+    background-color: rgb(25, 0, 106);
+    color: white;
+    border: 0.1px solid rgb(195,194,194);
+}
+
+button:hover{
+    background-color: grey;
+}
+
+.segundo-titulo {
+    border-top: solid 2px #d1d1d1e7;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.segundo-titilo-producto {
+    margin: 15px;
+    font-weight: bold;
+}
+
+.detalle2 {
+    display: flex;  
+    border-bottom: solid 1px #d1d1d1e7;
+    margin: 0 10px;
+}
+
+.imagen-productos-similares {
+    width: 50%;
+}
+.mobil-detalle2 {
+    display: flex;
+}
+
+.descripcion2 {
+    margin: 50px 6px;
+}
+
+.tablet-detalle2,
+.compu-detalle2 {
+    display: none;
+}
+
+.titulo-reviews {
+    margin: 10px 10px;
+}
+
+.reviews {
+    border-bottom: solid 1px #d1d1d1e7;
+    display: flex;
+    margin: 5px;
+}
+
+.fa-solid-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 100% green;
+}
+
+.descripcion-reviews {
+    font-size: 10px;
+    margin: 40px 8px;
+}
+
+.comentario-reviews {
+    margin: 5px 7px;
+}
+
+.border-description-reviews {
+    border-bottom: solid 1px #d1d1d1e7;
+}
+
+/* VISTA LOGIN MOBILE */
+
+.formulario-login, 
+.formulario-registrarse,
+.formulario-create {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+    margin-top: 60px;
+}
+.form-label {
+    font-size: 20px;
+}
+
+.formulario-registrarse {
+    background-color: rgb(233, 233, 233);
+    margin-top: 29px;
+}
+.textarea-create {
+
+    width: 40%;
+    height: 75px;
+    margin-top: 26px;
+    margin-bottom: 28px;
+    
+}
+
+.boton-login,
+.boton-registrarse {
+    margin: 16px;
+    border: none;
+    border-bottom: solid 0.5px grey;
+    outline: none;
+    width: 70%;
+    margin-bottom: 26px;
+    padding: 17px 0px;
+}
+
+.boton-registrarse {
+    background-color: rgb(233, 233, 233);
+}
+
+.formulario-login a {
+    text-decoration: none;
+}
+#buttons-cuenta,
+#buttons-cuenta-delete {
+    font-weight: bold;
+    margin-top: 35px;
+    padding: 6px;
+    color:  rgb(9, 1, 36);
+    border: solid  1px  rgb(9, 1, 36);
+    border-radius: 0.3em;
+    width: 22%;
+    text-align: center;
+    font-size: 12px;
+}
+#buttons-cuenta-delete {
+    color: red;
+}
+.formulario-login p,
+.formulario-registrarse p {
+    font-size: 14px;
+    color: grey;
+}
+
+.formulario-login p {
+    margin-left: 10px;
+}
+
+.formulario-login h2,
+.formulario-registrarse h2 {
+    margin-right: 105px;
+}
+
+.formulario-registrarse p {
+    margin-right: 23px;
+}
+
+
+.boton-login-registrar {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 12px;
+    border-radius: 0.5em;
+    border: none;
+    background-color: rgb(9, 1, 36);
+    color: white;
+}
+
+.div-beneficios {
+    padding: 33px;
+    margin: 8px;
+    line-height: 2em;
+}
+
+.cartas-beneficios {
+    text-align: center;
+    padding: 70px;
+}
+
+.cartas-beneficios i {
+    font-size: 36px;
+}
+
+.cartas-beneficios h2 {
+    font-size: 16px;
+    font-weight: bold
+}
+
+.cartas-beneficios p {
+    font-size: 16px;
+    font-weight: 100;
+    color: grey;
+}
+
+/* /----Comienza FOOTER-----/ */
+
+footer {
+    background-color: rgb(16, 1, 66);
+}
+
+.contenedor-top-footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.footer1,
+.footer2,
+.footer3{
+    padding: 15px 0;
+}
+
+.list-footer1, 
+.list-footer2 {
+    line-height: 26px;
+}
+
+.footer1 ul,
+.footer2 ul {
+    padding: 0;
+}
+
+.footer1 li,
+.footer2 li{
+    list-style: none;
+    font-size: 12px;
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.list-footer2 h2,
+.list-footer1 h2 {
+    text-align: center;
+    color: white;
+}
+
+.enlaces-footer{
+    color: grey;
+    text-decoration: none;
+    font-size: 15.5px;
+}
+
+.marca-registrada {
+    background-color: rgb(9, 1, 36);
+    padding: 20px;
+}
+
+.marca-registrada h1{
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.list-footer-icons {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.enlaces-footer-redes {
+    color: white;
+}
+
+.list-footer-icons i {
+    font-size: 28px;
+}
+
+.contenedor-total-edit h2{
+    margin-top: 110px;
+}
+
+.contenedor-total-edit h2{
+    font-weight: 200;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contenedor-parcial-edit{
+text-align: center;
+}
+
+.button-edit{
+    border-radius: 0.5em;
+    background-color: rgb(25, 0, 106);
+    color: white;
+    border: 0.1px solid rgb(195,194,194);
+    padding: 10px;
+    margin: 10px 0 15px 0;
+}
+
+.contenedor-edit{
+    padding: 3px;
+}
+
+.form-input{
+    width: 75%;
+    margin-top: 5px;
+    padding: 4px;
+    border-radius: 0.5em;
+}
+
+.div-detail-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(16, 2, 61, 0.301)
+}
+
+.div-detail-1 img{
+    width: 95%;
+    padding: 10px;
+    margin-top: 25px;
+    max-width: 380px;
+    max-height: 360px;
+}
+
+.titulo-producto-detail{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 500px) {
+
+    /*HEADER -----------------*/
+
+    .logo {
+        width: 109px;
+        height: 104px;
+    }
+    .hamb-button{
+        font-size: 28px;
+    }
+
+    .listado-top li {
+        margin-left: 12px;
+        font-size: 12px;
+        display: flex;
+    }
+    .iconos-top-mobile {
+        width: 31%;
+    }
+    .fa-address-card,
+    .fa-cart-shopping,
+    .fa-house,
+    .fa-arrow-right{
+        display: block;
+        font-size: 12px;
+        padding-left: 5px;
+        color: rgb(25, 0, 106)
+    }
+    .parte-top {
+        height: 88px;
+    }
+
+   .Resumen {
+    left: 360px;
+    bottom: 109px;
+    height: 20px;
+    font-size: 18px;
+   }
+
+   .Subtotal-Envio-Impuestos {
+    left: 355px;
+    bottom: 100px;
+    height: 20px;
+    font-size: 15px;
+   }
+
+   .precios {
+    left: 448px;
+        bottom: 134px;
+        height: 20px;
+        font-size: 15px;
+   }
+
+   .total {
+        
+    font-size: 15px;
+    left: 355px;
+    bottom: 40px;
+    font-weight: 900;
+    height: 20px;
+   
+   
+}
+
+.numero613 {
+    
+    font-size: 15px;
+    
+    left: 429px;
+    bottom: 74px;
+   
+    
+    font-weight: 900;
+    height: 20px;
+    
+    
+}
+
+.opciones-dentro-box {
+    font-size: 14px;
+    left: 3px;
+    height: 49px;
+    bottom: 55px;
+}
+
+.Carrito-de-Compras {
+    font-size: 18px;
+        
+        right: -13px;
+        bottom: 58px;
+       
+        
+        height: 35px;
+}
+
+.casilla1 {
+    font-size: 15px;
+    bottom: 237px;
+    left: 303px;
+   
+}
+
+.casilla2 {
+    font-size: 15px;
+bottom: 332px;
+left: 304px;
+
+}
+.continuar {
+    left: -66px;
+    bottom: 143px;
+   font-size: 15px;
+}
+
+.cancelar {
+left: -47px;
+bottom: 144px;
+font-size: 15px;
+}
+
+.silla1 {
+    
+    font-size: 15px;
+    height: 60px;
+    bottom: 255px;
+  
+    left: 13px;
+}
+
+.escritorio {
+   font-size: 15px;
+    
+    height: 60px;
+    bottom: 183px;
+  
+    left: -50px;
+}
+.linea-carrito-de-compras2 {
+   padding: 1px;
+    opacity: 60%;
+   
+    bottom: -139px;
+  
+    border-left: 40%;
+    left: 13px;
+}
+.silla-dc {
+
+    
+    bottom: 370px;
+    left: 94px;
+    height: 20px;
+    font-size: 15px;
+    
+}
+
+.escritorio-dc {
+    
+    bottom: 337px;
+    left: 94px;
+    height: 20px;
+    font-size: 15px;
+    
+}
+.silla-precio {
+    
+bottom: 444px;
+left: 242px;
+height: 20px;
+font-size: 15px;
+}
+.escritorio-precio {
+  
+height: 20px;
+bottom: 409px;
+left: 242px;
+font-size: 15px;  
+
+    }
+
+    }
+    /* /MAIN -----------------/ */
+
+    .el-main h6 {
+        font-weight: bold;
+        font-size: 11px;
+    }
+
+    .productosdestacados {
+        letter-spacing: 1px;
+    }
+
+    .productosdestacados p{
+        font-size: 22px;
+        color: rgb(25, 0, 106);
+    }
+
+    .imagenes img {
+        max-width: 255px;
+        max-height: 215px;
+        transition: transform 750ms; 
+    }
+
+    .imagenes img:hover {
+        transform: scale(1.1);
+    }
+
+    .descripcion p {
+        font-size: 13.5px;
+        letter-spacing: 1.5px;
+    }
+
+    .descripcion i {
+        font-size: 16.5px;
+    }
+
+    /* VISTA PRODUCTOS */
+    .carrusel-fotos img {
+        width: 400px;
+        height: 200px;
+        object-fit: contain;
+      }
+
+     /* /FOOTER -----------------/ */
+
+    .list-footer1 li,
+    .list-footer2 li{
+        font-size: 18.5px;
+        opacity: 0.8;
+    }
+
+    .list-footer-icons i {
+        font-size: 34px;
+    }
+
+    .marca-registrada h1{
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        letter-spacing: 0.5px;
+    }
+
+
+@media (min-width: 760px){
+
+    /* -----------HEADER -----------------*/    
+    .logo{
+        width: 125px;
+        height: 115px;
+    }
+    .iconos-top-mobile {
+        display: none;
+    }
+
+    .fa-address-card,
+    .fa-cart-shopping,
+    .fa-house,
+    .fa-arrow-right{
+        display: block;
+        font-size: 12px;
+        padding-left: 5px;
+        color: gray;
+        padding-top: 2px;
+    }
+
+    .listado-top{
+        display: flex;
+    }
+
+    .hamb-button{
+        display: none;
+    }
+
+    .listado-top ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .listado-top li {
+        margin-left: 15px;
+        font-size: 14px;
+        display: flex;
+    }
+    .listado-top a:hover {
+        color: grey;
+        transition: 0.4s;
+    }
+
+    .listado-top a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /* /MAIN -----------------/ */
+
+    .el-main h6 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        padding-bottom: 10px;
+    }
+
+    .productosdestacados p {
+        padding-top: 15px;
+    }
+
+    .ocultando-imagen{
+        display: none;
+    }
+
+    .contenedor-img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .imagenes{
+        margin-right: 55px;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+
+    .imagenes img {
+        max-width: 275px;
+        max-height: 230px;
+    }
+
+    .fa-truck {
+        animation: none;
+    }
+
+    /* VISTA PRODUCTS TABLET */
+
+    .carrusel {
+        width: 50%;
+    }
+    .carrusel-fotos {
+      overflow: hidden;
+    }
+    .carrusel-fotos img {
+      width: 350px;
+      height: 250px;
+    }
+    .carrusel-menu {
+      display: block;
+    }
+    .carrusel-menu img {
+      /*box-sizing: border-box;*/
+      width: 50px;
+      height: 40px;
+      border: 5px solid #d1d1d1e7;
+      object-fit: contain;
+    }
+    .carrusel-menu img:hover {
+      border: none;
+    }
+    .detalle {
+        margin: 0 20px;  
+    }
+    .main-detalle {
+        border-left: solid 1px #d1d1d1e7;
+        width: 50%;
+        background-color: rgba(16, 2, 61, 0.301);
+    }
+    .descripcion-prod {
+        display: flex;
+        margin: 30px 20px;
+        justify-content: space-around;
+        border-top: solid 1px #d1d1d1e7;
+        align-items: center;
+    }
+    .elegir-modelo {
+        margin-bottom: 20px;
+    }
+    .comentario-producto {
+        margin: 5px 20px;
+        border-top: solid 1px #d1d1d1e7;
+    }
+    .button {
+        margin: 0 20px;
+    }   
+    .mobil-detalle2 {
+        display: flex;
+    }
+    .tablet-detalle2 {
+        display: flex;
+    }
+    .div-main {
+        border: solid 1px #d1d1d1e7;
+        display: flex;         
+    }
+
+    .probando4321{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .div-detail-1 img{
+        width: 95%;
+        padding: 10px;
+        margin-top: 40px;
+        max-width: 400px;
+        max-height: 385px;
+    }
+
+     /* /FOOTER -----------------/ */
+
+    .contenedor-top-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 35px 0 15px 0;
+    }
+
+    .footer1{
+        margin-left: 20px;
+        margin-right: 20px
+    }
+
+    .footer-item{
+        margin-top: 3.5px;
+    }
+    
+    .footer1 a,
+    .footer2 a{
+        font-size: 17px;
+    }
+    
+    .footer1 a,
+    .footer2 a,
+    .footer3 a{
+        color: grey;
+    }
+    
+    .footer3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .footer3 ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }  
+    .footer-icon{
+        margin-left: 8px;
+        justify-content: space-around;
+        
+    }
+    .footer-icon i {
+        color: white;
+        font-size: 40px;
+    }
+    
+
+    .marca-registrada h1{
+        opacity: 0.8;
+        letter-spacing: 0.8px;
+        font-size: 18.5px;
+    }
+
+    .Carrito-de-Compras {
+        font-size: 27px;
+            
+            right: -13px;
+            bottom: 73px;
+           
+            
+            height: 35px;
+    }
+.Resumen {
+    left: 580px;
+    bottom: 133px;
+    height: 20px;
+    font-size: 27px;
+}
+
+.Subtotal-Envio-Impuestos {
+    left: 551px;
+    bottom: 62px;
+    height: 20px;
+    font-size: 20px;
+   }
+
+   .precios {
+    left: 675px;
+    bottom: 102px;
+    height: 20px;
+    font-size: 20px;
+   }
+
+   .total {
+    font-size: 15px;
+    left: 552px;
+    bottom: -82px;
+    font-weight: 900;
+    height: 25px;
+   }
+
+   .numero613 {
+    font-size: 15px;
+    left: 673px;
+    bottom: -42px;
+    font-weight: 900;
+    height: 25px;
+   }
+   .opciones-dentro-box {
+    font-size: 20px;
+    left: 3px;
+    height: 49px;
+    bottom: 60px;
+}
+.casilla1 {
+    font-size: 25px;
+    bottom: 257px;
+    left: 462px;
+   
+}
+
+.casilla2 {
+    font-size: 25px;
+    bottom: 450px;
+    left: 463px;
+
+}
+
+.continuar {
+    left: -38px;
+    bottom: 100px;
+    font-size: 25px;
+}
+
+.cancelar {
+    left: -20px;
+    bottom: 101px;
+    font-size: 25px;
+}
+.silla1 {
+    
+    font-size: 25px;
+    height: 137px;
+    bottom: 289px;
+    left: 0px;
+}
+
+.escritorio {
+    font-size: 15px;
+    height: 126px;
+    bottom: 158px;
+    left: -131px;
+}
+.linea-carrito-de-compras2 {
+    padding: 1px;
+     opacity: 60%;
+    
+     bottom: -282px;
+   
+     border-left: 40%;
+     left: 13px;
+ }
+ .silla-dc {
+
+    
+    bottom: 513px;
+    left: 184px;
+    height: 20px;
+    font-size: 25px;
+    
+}
+
+.escritorio-dc {
+    
+    bottom: 403px;
+    left: 171px;
+    height: 20px;
+    font-size: 25px;
+    
+}
+.silla-precio {
+    
+    bottom: 603px;
+    left: 334px;
+    height: 20px;
+    font-size: 25px;
+}
+.escritorio-precio {
+  
+    height: 20px;
+    bottom: 491px;
+    left: 382px;
+    font-size: 25px;
+}
+}
+
+@media (min-width: 960px){
+
+    /*--HEADER -----------------*/
+
+    .listado-top ul {
+        margin-left: 30px;
+        padding-left: 35px;
+    }
+
+    .listado-top li,
+    .listado-top a {
+        font-size: 14px;
+    }
+
+    /*--MAIN -----------------*/
+
+    .cuotas h6,
+    .productosdestacados {
+        opacity: 0.8;
+        animation: movimiento 2200ms alternate 20 linear;
+    }
+
+    @keyframes movimiento{
+        0% {
+            transform: translateY(-30%);
+        }
+        50%{
+            transform: translateY(-10%);
+        }
+        75%{
+            transform: translateY(10%);
+        }
+        100% {
+            transform: translateY(25%);
+        }
+    }
+
+    .imagenes{
+        margin: 45px 60px;
+    }
+
+    .imagenes img{
+        max-width: 295px;
+        max-height: 250px;
+    }
+
+    .descripcion p{
+        padding-top: 10px;
+    }
+
+    .descripcion p{
+        opacity: 0.7;
+        font-size: 15.5px;
+    }
+
+    .descripcion i{
+      font-size: 17px;
+      padding: 4px
+    }
+
+    .div-detail-1 {
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+    
+    .div-detail-1 img{
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        max-width: 420px;
+        max-height: 395px;
+    }
+
+    .detalle-detail h3{
+        margin-top: 20px;
+    }
+
+     /*--FOOTER -----------------*/
+
+    .footer-item{
+        margin-top: 5px;
+    }
+    .footer3 {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer1{
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+
+    .list-footer-icons li {
+        margin-left: 12px;
+    }
+
+    .marca-registrada {
+        padding-top: 15px;
+    }
+
+    .marca-registrada h1{
+        font-size: 17px;
+        letter-spacing: 1.1px;
+        opacity: 0.8;
+        padding-bottom: 30px;
+    }
+    .big-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contenedor-top-footer {
+        justify-content: space-around;
+        width: 70%;
+    }
+    .Resumen {
+        left: 673px;
+        bottom: 135px;
+        height: 20px;
+        font-size: 27px;
+    }
+    .Carrito-de-Compras {
+        font-size: 27px;
+            
+        right: -73px;
+            bottom: 73px;
+           
+            
+            height: 35px;
+    }
+    .Subtotal-Envio-Impuestos {
+        left: 629px;
+        bottom: 101px;
+        height: 20px;
+        font-size: 30px;
+       }
+    
+    .precios {
+        left: 806px;
+        bottom: 150px;
+        height: 20px;
+        font-size: 30px;
+       }
+    
+    .total {
+        font-size: 30px;
+        left: 612px;
+        bottom: -52px;
+        font-weight: 900;
+        height: 25px;
+       }
+    
+    .numero613 {
+        font-size: 30px;
+        left: 731px;
+        bottom: 3px;
+        font-weight: 900;
+        height: 25px;
+       }
+    .opciones-dentro-box {
+        font-size: 20px;
+        left: 3px;
+        height: 49px;
+        bottom: 60px;
+    }
+    .casilla1 {
+        font-size: 25px;
+        bottom: 316px;
+        left: 506px;
+       
+    }
+    
+    .casilla2 {
+        font-size: 25px;
+    bottom: 478px;
+    left: 506px;
+    
+    }
+    
+    .continuar {
+        left: -38px;
+        bottom: 152px;
+        font-size: 25px;
+    }
+    
+    .cancelar {
+        left: -20px;
+        bottom: 151px;
+        font-size: 25px;
+    }
+    .silla1 {
+        
+        font-size: 25px;
+        height: 137px;
+        bottom: 355px;
+        left: 52px;
+    }
+    
+    .escritorio {
+        font-size: 15px;
+        height: 126px;
+        bottom: 221px;
+        left: -85px;
+    }
+    .linea-carrito-de-compras2 {
+        padding: 1px;
+         opacity: 60%;
+        
+         bottom: -282px;
+       
+         border-left: 40%;
+         left: 13px;
+     }
+     .silla-dc {
+        bottom: 545px;
+        left: 203px;
+        height: 20px;
+        font-size: 25px; 
+    }
+    
+    .escritorio-dc {
+        bottom: 467px;
+        left: 199px;
+        height: 20px;
+        font-size: 25px;
+    }
+
+    .silla-precio {
+    bottom: 633px;
+    left: 421px;
+    height: 20px;
+    font-size: 25px;
+    }
+
+    .escritorio-precio {
+    height: 20px;
+    bottom: 554px;
+    left: 418px;
+    font-size: 25px;
+    }
+
+.contenedor-total-edit{
+    margin-top: 60px;
+}
+
+.contenedor-total-edit h2{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.contenedor-parcial-edit{
+    text-align: center;
+}
+
+.button-edit{
+    padding: 15px;
+    margin: 15px 0 25px 0;
+}
+
+.contenedor-edit{
+    padding: 15px 30px;
+}
+
+.form-input{
+    width: 90%;
+    margin-top: 5px;
+    padding: 6px;
+    margin-left: 55px;
+
+}
+   
+}
+
+
+
+@media (min-width: 1200px){
+
+    /*HEADER -----------------*/
+
+
+    .listado-top{
+        width: 52%; 
+    }
+
+    .listado-top ul {
+        justify-content: space-evenly;
+    }
+ 
+    .listado-top a {
+        
+        font-size: 14px;
+    
+    }
+    .iconos-top-mobile {
+        display: none;
+    }
+
+    @keyframes aumentologo {
+        0% {
+            transform: scale(0.9);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100%{
+            transform: scale(1.5);
+        }
+    }
+
+    /*MAIN -----------------*/
+
+    .cuotas h6{
+        font-size: 15.5px;
+    }
+
+    .productosdestacados p{
+        font-size: 25px
+    }
+
+    .imagenes{
+        margin: 70px 80px;
+    }
+
+    .imagenes img{
+        max-width: 320px;
+        max-height: 280px;
+    }
+
+    .descripcion p{
+        padding-top: 12px;
+    }
+
+    .descripcion p{
+        opacity: 0.8;
+        font-size: 17px;
+    }
+
+    .descripcion i{
+    font-size: 18px;
+    padding: 4.5px
+    }
+
+    /* VISTA PRODUCTS WEB */
+
+    .carrusel-fotos img {
+        width: 500px;
+        height: 400px;
+    }
+    .main-detalle {
+        border-left: solid 1px #d1d1d1e7;
+        width: 50%;
+        background-color: rgba(16, 2, 61, 0.301);
+    }
+    .detalle {
+        margin: 0 20px;  
+    }
+    .descripcion-prod {
+        display: flex;
+        margin: 30px 20px;
+        justify-content: space-around;
+        border-top: solid 1px #d1d1d1e7;
+        align-items: center;
+    }
+    #precio {
+        font-size: 20px;
+        margin: 15px 0 0 0;
+    }
+    .comentario-producto {
+        display: block;
+        margin: 5px 20px;
+        border-top: solid 1px #d1d1d1e7;
+    }
+    .button {
+        margin: 15px 20px;
+    }   
+    .mobil-detalle2 {
+        display: flex;
+    }
+    .tablet-detalle2 {
+        display: flex;
+    }
+    .compu-detalle2{
+        display: flex;
+    }
+    .div-main {
+        border: solid 1px #d1d1d1e7;
+        display: flex;
+        margin-top: 30px;
+    }
+    .comentario-reviews {
+        margin-top: 40px;
+    }
+
+    /* VISTA LOGIN  */
+    .div-formularios-monitor {
+        display: flex;
+        padding-bottom: 20px;
+
+    }
+    .formulario-login,
+    .formulario-registrarse {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    .boton-login,
+    .boton-registrarse {
+        margin-top: 45px;
+        margin-bottom: 20px;
+        width: 50%;
+    }
+    .boton-login-registrar {
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    .cartas-beneficios {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    /*FOOTER -----------------*/
+
+    .contenedor-top-footer {
+        padding-top: 55px;
+    }
+
+    .footer-item{
+        margin-top: 7.5px;
+    }
+
+    .footer-item a {
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .marca-registrada h1{
+        font-size: 18.5px;
+        letter-spacing: 1.6px;
+    }
+    /*Probando quary carrito */
+    .opciones-box{
+        width: 1972px;
+        
+        
+        }
+
+        
+   
+    /*Probando quary carrito final*/
+}
+
+
+
+
+
+.opciones-box{
+    display: flex;
+    position: relative;
+    box-sizing: content-box;
+    background-color: rgb(63, 111, 133);
+    color: aquamarine;
+    padding: 40px;
+    opacity: 60%;
+    z-index: 1;
+    top: 10px;
+    
+    }
+    
+    .opciones-dentro-box {
+       
+        display: flex;
+       
+        justify-content: space-around;
+        position: relative;
+       
+        
+        
+    }
+    
+
+    .envio {
+        opacity: 50%;
+    }
+
+    .pago {
+        
+        opacity: 50%;
+    }
+    
+    .linea-opciones {
+   
+    position: relative;
+    
+    background-color: gray;
+    color: aquamarine;
+    padding: 1px;
+    opacity: 60%; 
+    bottom: 180px;
+    z-index: 2;
+  
+    left: 20px;
+    }
+    
+    .Carrito-de-Compras {
+      
+        
+        position: relative;
+        
+    }
+    
+    .linea-carrito-de-compras {
+        position: relative;
+        
+        background-color: gray;
+        color: aquamarine;
+        padding: 1px;
+        opacity: 60%;
+        z-index: 1;
+        bottom: 8px;
+        border-left: 40%;
+        left: 13px;
+      
+    }
+    
+    .Resumen {
+       
+       
+        position: relative;
+        
+       
+    }
+    
+ 
+    
+
+    
+
+    
+    .Subtotal-Envio-Impuestos {
+       
+        flex-direction: column;
+        
+        justify-content: space-around;
+        position: relative;
+       
+        
+       
+    }
+    
+    .precios {
+        
+        flex-direction: column;
+      
+        justify-content: space-around;
+        position: relative;
+        
+        
+        
+    }
+    
+
+    
+    .total {
+        
+       
+        justify-content: space-around;
+        position: relative;
+       
+       
+        text-transform: uppercase;
+       
+       
+       
+    }
+    
+    .numero613 {
+        
+        
+        justify-content: space-around;
+        position: relative;
+      
+       
+        text-transform: uppercase;
+      
+        
+        
+    }
+    
+    .silla1 {
+        position: relative;
+       
+        
+    }
+    
+    .escritorio {
+        position: relative;
+        
+        
+    }
+    
+    .linea-carrito-de-compras2 {
+        position: relative;
+      
+        background-color: gray;
+        color: aquamarine;
+        padding: 1px;
+        opacity: 60%;
+       
+        
+    }
+    
+    .continuar {
+        position: relative;
+        
+       
+    }
+    
+    .cancelar {
+        position: relative;
+   
+    }
+    
+    .casilla1 {
+        display: flex;
+        position: relative;
+        
+       
+    }
+    
+    .casilla2 {
+        display: flex;
+    position: relative;
+    
+  
+}
+    
+    
+    .silla-dc {
+
+        position: relative;
+        
+        
+        
+    }
+    
+    .escritorio-dc {
+        position: relative;
+       
+        
+        
+    }
+    .silla-precio {
+        position: relative;
+    
+        
+    }
+    .escritorio-precio {
+        position: relative;
+  
+        
+    }

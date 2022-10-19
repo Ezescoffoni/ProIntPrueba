@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include ("./partials/head")%>
+<body>
+    <%-include ("./partials/header")%>
+<main class="el-main">
+    <div class="contenedor-slider">
+
+        <ul>
+            <li><img src="/images/gris-oscuro-2.jpg"></li>
+            <li><img src="/images/sillon-blanco.jpeg" ></li>
+            <li><img src="/images/sillon-amarillo.jpg" ></li>
+            <li><img src="/images/sillon-sofa-gris.jpg" ></li>
+            <li><img src="/images/sillon-exterior.jpg" ></li>
+        </ul>
+    
+    </div>
+    <div class="cuotas">
+        <h6>APROVECHA LAS 3, 6 y 12 CUOTAS SIN INTERES CON TARJETAS DE CRÉDITO</h6>
+    </div>
+    <div class="productosdestacados">
+        <p>Productos Destacados</p>
+    </div>
+    <div class="probando4321">
+    <% for (let obj of ps) { %>
+    <div class="contenedor-img">
+        <nav class="productos">
+            <a href="/products/detail/<%= obj.id %>">
+                <div class="imagenes">
+                    <img src="images/<%= obj.image %>"></img>
+                <div class="descripcion">
+                    <p> <%= obj.name %> </p>
+                    <i class="fa-solid fa-truck"></i>
+                </div>
+                </div>
+            </a>
+        </nav>
+    </div>
+    <% } %>
+    </div>
+</main>
+
+    <%-include ("./partials/footer")%>
+
+</body>
+</html>
+

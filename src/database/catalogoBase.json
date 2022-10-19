@@ -1,0 +1,110 @@
+[
+    {
+     "id": 1,
+     "name": "Espejo Egipto",
+     "price": 12000,
+     "discount": 10,
+     "category": "in-sale",
+     "description": "Espejo redondo modelo de Egipto 90 x 90",
+     "image": "espejo.jpg"
+    },
+    {
+     "id": 2,
+     "name": "Silla roble Madrid",
+     "price": 15000,
+     "discount": 15,
+     "category": "in-sale",
+     "description": "Silla especial para interior",
+     "image": "silla-y-funda.jpeg"
+    },
+    {
+     "id": 3,
+     "name": "Sillon tres cuerpos Brasil",
+     "description": "Sillon especial para disfrutar un dia en familia",
+     "price": 80000,
+     "discount": 10,
+     "image": "sillon-y-funda.jpeg",
+     "category": "in-sale"
+    },
+    {
+     "id": 4,
+     "name": "Silla oficina Paris",
+     "description": "Silla ideal para la oficina - HomeOficce",
+     "price": 14000,
+     "discount": 5,
+     "image": "silla.jpeg",
+     "category": "in-sale"
+    },
+    {
+     "id": 5,
+     "name": "Juego de mesa exterior",
+     "description": "Mesa ideal para el exterior de tu casa y disfrutar del aire libre",
+     "price": 50000,
+     "discount": 10,
+     "image": "mesa-exterior.jpeg",
+     "category": "in-sale"
+    },
+    {
+     "id": 6,
+     "name": "Mesa moderna interior",
+     "description": "Mesa ideal para el interior de tu casa",
+     "price": 20000,
+     "discount": 5,
+     "image": "mesa-4-patas.jpeg",
+     "category": "in-sale"
+    },
+    {
+    "id": 7,
+    "name": "Sillon dos plazas",
+    "price": 8000,
+    "discount": 15,
+    "category": "in-sale",
+    "description": "Sillon dos plazas igual para familias pequeñas",
+    "image": "sillon-amarillo.jpg"
+    },
+    {
+    "id": 8,
+    "name": "Sillon exterior",
+    "price": 30000,
+    "discount": 10,
+    "category": "in-sale",
+    "description": "Sillon exterior ideal para balcones",
+    "image": "sillon-exterior.jpg"
+    },
+    {
+    "id": 9,
+    "name": "Sillon sofa",
+    "description": "Sillon sofa en formato L",
+    "price": 80000,
+    "discount": 10,
+    "image": "sillon-sofa-gris.jpg",
+    "category": "in-sale"
+    },
+    {
+    "id": 10,
+    "name": "Modular televisor",
+    "description": "Modular excelente para living",
+    "price": 40000,
+    "discount": 5,
+    "image": "modulares-modernos.jpg",
+    "category": "in-sale"
+    },
+    {
+    "id": 11,
+    "name": "Sillon tres cuerpos",
+    "description": "Sillon tres cuerpos modernos, ideal para familias numerosas",
+    "price": 70000,
+    "discount": 20,
+    "image": "sillon-gris.jpg",
+    "category": "in-sale"
+    },
+    {
+    "id": 12,
+    "name": "Mesa moderna",
+    "description": "Mesa ideal para el interior de tu casa",
+    "price": 90000,
+    "discount": 10,
+    "image": "mesa-madera.jpeg",
+    "category": "in-sale"
+    }
+]

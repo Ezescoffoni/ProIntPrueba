@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include ("./partials/head")%>
+<body>
+    <%-include ("./partials/header")%>
+    
+    <main class="el-main">
+        <br>
+        <div class="productosdestacados">
+            <p>Todos los productos</p>
+        </div>
+        <div class="probando4321">
+        <% for (let obje of prod) { %>
+        <div class="contenedor-img">
+            <nav class="productos">
+                <a href="/products/detail/<%= obje.id %>">
+                    <div class="imagenes">
+                        <img src="/images/<%= obje.image %>"></img>
+                    <div class="descripcion">
+                        <p> <%= obje.name %> </p>
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    </div>
+                </a>
+            </nav>
+        </div>
+        <% } %>
+        </div>
+    </main>
+
+    <%-include ("./partials/footer")%>
+
+</body>
+</html>

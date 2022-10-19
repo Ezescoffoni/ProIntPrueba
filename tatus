@@ -1,0 +1,259 @@
+[33mcommit fb50d024eaa2d2ecf09475d01144c279d9e8f9d1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Tue Sep 20 19:37:32 2022 -0300
+
+    actualizando
+
+[33mcommit daec862c0e49430369505ff7c1c74b5cb2010fe2[m
+Merge: a360fa5 63242c4
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Tue Sep 20 19:04:38 2022 -0300
+
+    Merge branch 'main' of https://github.com/JIBEEEEE/proyectoIntegrador
+
+[33mcommit a360fa53c7d62b63f4a9807aacf1cfd17e40b14e[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Tue Sep 20 19:04:29 2022 -0300
+
+    vista login pc
+
+[33mcommit 63242c45845a00ac18888451a02747c0e947ba73[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Tue Sep 20 18:45:16 2022 -0300
+
+    Footer corregido en responsive 760 - 1200px
+
+[33mcommit 28a070083200263c59729c82cc2d5c81a5c01a50[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Tue Sep 20 18:00:27 2022 -0300
+
+    Retocando header y footer
+
+[33mcommit 455be4f8b837d7161156d344f94e9795ab29b39b[m
+Merge: 5fa8bc8 7e9251b
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Tue Sep 20 16:29:37 2022 -0300
+
+    Merge branch 'main' of https://github.com/JIBEEEEE/proyectoIntegrador
+
+[33mcommit 5fa8bc82bac27d44dab9bce9ab9a25fb6d5ea584[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Tue Sep 20 16:29:21 2022 -0300
+
+    Imagen portada agregada
+
+[33mcommit 7e9251b7f9e62ffc50917299b32c28980c6ef26d[m
+Author: JIBEEEEE <juanjolibe98@gmail.com>
+Date:   Tue Sep 20 14:30:10 2022 -0300
+
+    agregue solo lo de mi vista al css
+
+[33mcommit f807cc52457d84bcc25b2efdc9623684e7ed5c4b[m
+Author: JIBEEEEE <juanjolibe98@gmail.com>
+Date:   Tue Sep 20 14:26:47 2022 -0300
+
+    agreganto vista del carrito
+
+[33mcommit 341ba7b3f1e30c039e82d8ff2d3dabc4a672cd11[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Mon Sep 19 23:49:54 2022 -0300
+
+    emprolijando footer
+
+[33mcommit 7dbadae091b2c31dcb5d18bad8fe06ca249ad212[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Mon Sep 19 23:47:50 2022 -0300
+
+    comiteando
+
+[33mcommit 2288405c2754e29d098e654376e72255a2b305e7[m
+Merge: 2341a04 4ba832c
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Mon Sep 19 23:45:04 2022 -0300
+
+    modificando header y footer responsive, trabajndo en login y registro
+
+[33mcommit 2341a04bf6d3e01092886771c7dbf27fe1cfcb6d[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Mon Sep 19 23:31:59 2022 -0300
+
+    login y registro responsive, estilos header y footer
+
+[33mcommit 4ba832ce080e241c09d1b3d911360a802cef696d[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Mon Sep 19 21:30:18 2022 -0300
+
+    HEADER y FOOTER en responsive, MAIN del Home Responsive tambien
+
+[33mcommit 932194bcc61ae4a0911151ab420dbb1679f919a5[m
+Merge: 7889f8e c301e57
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Mon Sep 19 21:27:18 2022 -0300
+
+    Haciendo commit para poder usar Pull y Push
+
+[33mcommit 7889f8ebdb6b8c58a7de6c5ee602cd0bfeebc288[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Mon Sep 19 14:07:44 2022 -0300
+
+    +
+
+[33mcommit c301e57d0cfad03aebdf4318e6413249142cb5e2[m
+Author: Ezescoffoni <eze_esco@hotmail.com>
+Date:   Sun Sep 18 23:36:01 2022 -0300
+
+    vista products
+
+[33mcommit 9d784f03acd1cc141f299ad69bc215bf889ae1a9[m
+Merge: 5dd1757 6b62355
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Sun Sep 18 22:52:13 2022 -0300
+
+    Merge branch 'main' of https://github.com/JIBEEEEE/proyectoIntegrador
+
+[33mcommit 5dd1757a6d35fa687f4d4794b1c7dec7a32b9819[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Sun Sep 18 22:51:46 2022 -0300
+
+    comiteanding
+
+[33mcommit 6b62355deaa19a732c3b0cfb2384a04d2c945849[m
+Merge: 8af525f 880a252
+Author: Ezescoffoni <eze_esco@hotmail.com>
+Date:   Sun Sep 18 22:50:18 2022 -0300
+
+    arreglo conflicto
+
+[33mcommit 8af525fc4e0063acf4f0e5de79efc600ae6bdc47[m
+Author: Ezescoffoni <eze_esco@hotmail.com>
+Date:   Sun Sep 18 22:43:46 2022 -0300
+
+    vista productos
+
+[33mcommit 880a25246d931f579ec6af0c1afc45d0a65da5ac[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Sun Sep 18 22:06:47 2022 -0300
+
+    finalizando login web
+
+[33mcommit d0a006012d3f07a460f0443b744df1529bbd849b[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Sun Sep 18 14:49:02 2022 -0300
+
+    actualizando header y footer responsive vista celular
+
+[33mcommit ff2eec0c2ac2fad735e4f5a7b688a1b0b37b1c53[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Sun Sep 18 14:48:33 2022 -0300
+
+    vista celular footer y header
+
+[33mcommit b4f460b753d7d87673cc7218b9e8f178fd08629c[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Sun Sep 18 04:13:02 2022 -0300
+
+    unificando html y modificando el app para acceder al login
+
+[33mcommit a215bfed7aad52f3abc3196ce72c9204bb5dea77[m
+Merge: def020e 3dc96a2
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Sun Sep 18 04:04:16 2022 -0300
+
+    actualizando cambios
+
+[33mcommit def020edbde27f84f50f56be38b82d43f48649ef[m
+Author: santihernandezmonet <santi.hernandezm96@gmail.com>
+Date:   Sun Sep 18 03:56:45 2022 -0300
+
+    avance header, footer y vista login
+
+[33mcommit 3dc96a212d088b28df6e1fc7ed7f31cf2d82007f[m
+Author: Facundo Saporiti <facundo.saporiti@hotmail.com>
+Date:   Sun Sep 18 00:21:17 2022 -0300
+
+    Lineas CSS modificadas por sitio responsive
+
+[33mcommit 5840306b2c61b1941ad3695f539db82ed201a9fc[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Sat Sep 17 21:59:54 2022 -0300
+
+    Header al 80%, home de la pagina al 60% en version Celular
+
+[33mcommit e0f287d29fae1dd576b09582c9a7bd5c1c7f6bad[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Thu Sep 15 21:24:42 2022 -0300
+
+    Intentando con el Header
+
+[33mcommit d6df764faab0a9e65f9d35bbdfc4481f0f544ab0[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Thu Sep 15 21:01:21 2022 -0300
+
+    Trabajando en equipo en el Header
+
+[33mcommit f4eb391b6941ebb15ee420ccfb8d167c1a51cf8c[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Thu Sep 15 20:21:18 2022 -0300
+
+    Imagenes listas
+
+[33mcommit 1c78efcf8c1f6bd6e12ac88be51719ffaf59fd31[m
+Merge: 9446a8a e86e18e
+Author: Ezescoffoni <111388014+Ezescoffoni@users.noreply.github.com>
+Date:   Thu Sep 15 20:15:39 2022 -0300
+
+    Merge pull request #1 from santihernandezmonet/main
+    
+    IMAGENES DEL SITIO
+
+[33mcommit e86e18e0bcb571e69d64ee3b719e74c198028202[m
+Author: Santi Hernández <86858529+santihernandezmonet@users.noreply.github.com>
+Date:   Thu Sep 15 20:05:26 2022 -0300
+
+    IMAGENES DEL SITIO
+
+[33mcommit 9446a8ac897f9419c29add9d9d30c5c1e154f287[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Thu Sep 8 21:36:07 2022 -0300
+
+    Serv con express. Puerto 3100. Comienzo de app.js
+
+[33mcommit aaab242bc01e526eec306502017ec1697e86177d[m
+Author: fsaporiti <facundo.saporiti@hotmail.com>
+Date:   Tue Sep 6 20:57:20 2022 -0300
+
+    Carpeta sprint 1
+
+[33mcommit fb5954570171b39610feebe3a89007081b45a837[m
+Author: JIBEEEEE <111766279+JIBEEEEE@users.noreply.github.com>
+Date:   Sun Sep 4 17:52:30 2022 -0300
+
+    WireFrame
+
+[33mcommit 824473648177021c93e11770d709718de686c5a5[m
+Author: JIBEEEEE <111766279+JIBEEEEE@users.noreply.github.com>
+Date:   Fri Sep 2 18:13:01 2022 -0300
+
+    Create WireFrame
+
+[33mcommit 8156e59b125e6de29576036e378e9b66160c61b6[m
+Author: JIBEEEEE <111766279+JIBEEEEE@users.noreply.github.com>
+Date:   Thu Sep 1 15:47:14 2022 -0300
+
+    Update README.md
+
+[33mcommit bcf0eb1782bcc75a11c5543b88373efc4416a2be[m
+Author: JIBEEEEE <111766279+JIBEEEEE@users.noreply.github.com>
+Date:   Thu Sep 1 14:34:30 2022 -0300
+
+    Update README.md
+
+[33mcommit 9ddee29a14b99d79917a0eb30e4983008e0eed9c[m
+Author: JIBEEEEE <111766279+JIBEEEEE@users.noreply.github.com>
+Date:   Thu Sep 1 14:33:30 2022 -0300
+
+    Update README.md
+
+[33mcommit f13c83d858ebe2855c96c9d195301e24cbacd784[m
+Author: JIBEEEEE <111766279+JIBEEEEE@users.noreply.github.com>
+Date:   Sun Aug 28 19

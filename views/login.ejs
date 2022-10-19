@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%-include ("./partials/head")%>
+<body>
+    <%-include ("./partials/header")%>
+
+<main class="main-login-registrarse">
+    <div class="div-formularios-monitor">    
+        <form action="POST" class="formulario-login">
+            
+            <h2>Ingresa <br> a tu cuenta. <br></h2>
+            <p>Bienvenido nuevamente. Ingresa tus datos</p>
+            <input class="boton-login" type="email" placeholder="E-mail" required>
+            <input class="boton-login" type="password" placeholder="Contraseña" required>
+            <input class="boton-login-registrar" type="submit" value="INGRESAR">
+            <a href="#">¿Olvidaste tu contraseña?</a>
+            <a href="/users/login/register" id="buttons-cuenta">Crea tu cuenta</a>
+            <a href="/users/login/register-edit" id="buttons-cuenta">Edita tu cuenta</a>
+            <a href="/users/login/register" id="buttons-cuenta-delete">Elimina tu cuenta</a>
+
+        </form>
+    </div>
+        <%-include ('./partials/cartas-beneficios') %>
+</main>
+        <%-include ("./partials/footer")%>
+</body>
+</html>

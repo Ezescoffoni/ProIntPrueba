@@ -1,0 +1,30 @@
+[
+ {
+  "id": 1,
+  "name": "Enzo",
+  "surname": "Copetti",
+  "email": "enzocopetti@racing.com",
+  "home": "Doblas 464"
+ },
+ {
+  "id": 2,
+  "name": "Santiago",
+  "surname": "Hernandez Monet",
+  "email": "santi.hernandezm96@gmail.com",
+  "home": "Senillosa 50"
+ },
+ {
+  "id": 3,
+  "name": "Lionel",
+  "surname": "Messi",
+  "email": "lionel@messi.com",
+  "home": "chacarita 100"
+ },
+ {
+  "id": 4,
+  "name": "Carlos",
+  "surname": "Maslaton",
+  "email": "carlosmaslaton@gmail.com",
+  "home": "Viel 370"
+ }
+]
