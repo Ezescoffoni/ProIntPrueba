@@ -31,7 +31,7 @@ const productsController = {
 	store: function (req,res){
 		
 		idNuevo=0;
-		for (let obje of products){
+		for (let obje of productos){
 			if (idNuevo < obje.id){
 				idNuevo = obje.id;
 			}
@@ -51,11 +51,11 @@ const productsController = {
 			image: nombreImagen
 		}
 
-		products.push(productoNuevo);
+		productos.push(productoNuevo);
 
-		fs.writeFileSync(productsFilePath, JSON.stringify(products,null,' '));
+		fs.writeFileSync(productsFilePath, JSON.stringify(productos,null,' '));
 
-		res.redirect("/");
+		res.redirect("/products");
 	},
 	/*Editar producto*/
     edit: function (req,res){
@@ -76,7 +76,7 @@ const productsController = {
 		let idProducto = req.params.id;
 		/*let nombreImagen = req.file.filename;*/
 
-		for (let obj of products){
+		for (let obj of productos){
 			if (idProducto==obj.id){
 				
 				obj.name = req.body.name;
@@ -94,19 +94,19 @@ const productsController = {
 				break;*/
 			}
 		}
-		fs.writeFileSync(productsFilePath,JSON.stringify(products, null, " "));
-		res.redirect("/");
+		fs.writeFileSync(productsFilePath,JSON.stringify(productos, null, " "));
+		res.redirect("/products");
 	},
 	destroy: (req, res) => {
 
 		let idProducto = req.params.id;
 		let productoEncontrado;
 
-		let Nproducts = products.filter(function(e){
+		let Nproducts = productos.filter(function(e){
 			return idProducto != e.id;
 		})
 
-		for (let producto of products){
+		for (let producto of productos){
 			if (producto.id == idProducto){
 				productoEncontrado = producto;
 			}
@@ -116,7 +116,7 @@ const productsController = {
 
 		fs.writeFileSync(productsFilePath,JSON.stringify(Nproducts, null, " "));
 
-		res.redirect("/");
+		res.redirect("/products");
 	}
 
 }

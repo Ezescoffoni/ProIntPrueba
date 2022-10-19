@@ -2,9 +2,9 @@
  {
   "id": 1,
   "name": "Espejo Egipto",
-  "price": "12500",
-  "discount": "5",
-  "category": "visited",
+  "price": 12000,
+  "discount": 10,
+  "category": "in-sale",
   "description": "Espejo redondo modelo de Egipto 90 x 90",
   "image": "espejo.jpg"
  },
@@ -39,8 +39,8 @@
   "id": 5,
   "name": "Juego de mesa exterior",
   "description": "Mesa ideal para el exterior de tu casa y disfrutar del aire libre",
-  "price": "55000",
-  "discount": "10",
+  "price": 50000,
+  "discount": 10,
   "image": "mesa-exterior.jpeg",
   "category": "in-sale"
  },
